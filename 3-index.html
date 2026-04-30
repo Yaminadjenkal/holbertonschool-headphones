@@ -1,166 +1,152 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-	<title>headphones</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="2-styles.css">
-	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage - Headphones</title>
 
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="3-styles.css">
+    <link rel='stylesheet' href='holberton_school-icon/style.css'>
 </head>
-
 <body>
-	<div class="background-container">
-		<header>
-			<img src="./images/logo_headphones.png" alt="logo headphones">
-			<input type="checkbox" class="menu-btn" id="menu-btn">
-			<label for="menu-btn" class="menu-icon">
-				<span class="navicon"></span>
-			</label>
-			<nav class="navbar-menu">
-				<ul class="nav">
-					<li class="nav-item">
-						<a href="https://www.holbertonschool.com">what we do</a>
-					</li>
-					<li class="nav-item">
-						<a href="https://www.holbertonschool.com">our results</a>
-					</li>
-					<li class="nav-item">
-						<a href="https://www.holbertonschool.com">contact us</a>
-					</li>
-				</ul>
-			</nav>
-		</header>
+    <!-- Header -->
+  <header class="header">
+    <div class="container">
 
-		<main>
-			<section id="hero">
-				<h1>Lorem ipsum dolor set amet lorem ipsum</h1>
-				<h2>Lorem ipsum dolor set amet lorem ipsum dolor set</h2>
-				<button>CALL TO ACTION</button>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-					et dolore
-					magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-					ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-					nulla pariatur.
-				</p>
-			</section>
-	</div>
-	<section id="what-we-do">
-		<div class="top">
-			<h1>What we do...</h1>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-				dolore
-				magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-				commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-				pariatur.
-			</p>
-		</div>
-		<div class="container">
-			<div class="sub-container">
-				<div class="holberton_school-icon-ic_sound"></div>
-				<h2>Lorem ipsum</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-			</div>
-			<div class="sub-container">
-				<div class="holberton_school-icon-ic_video"></div>
-				<h2>Lorem ipsum</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-			</div>
-			<div class="sub-container">
-				<div class="holberton_school-icon-ic_music"></div>
-				<h2>Lorem ipsum</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-			</div>
-			<div class="sub-container">
-				<div class="holberton_school-icon-ic_hearing"></div>
-				<h2>Lorem ipsum</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-			</div>
-		</div>
-	</section>
-	<section id="our-results">
-		<div class="top-img">
-			<div class="top">
-				<h1>Our results speak for themselves</h1>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-					et
-					dolore
-					magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-					ea
-					commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-					nulla
-					pariatur.
-				</p>
-			</div>
-		</div>
-		<div class="container">
-			<div class="sub-container">
-				<h2>+2%</h2>
-				<p>Lorem ipsum dolor</p>
-			</div>
-			<div class="sub-container">
-				<h2>+2%</h2>
-				<p>Lorem ipsum dolor</p>
-			</div>
-			<div class="sub-container">
-				<h2>+2%</h2>
-				<p>Lorem ipsum dolor</p>
+      <div class="nav">
+        <img src="images/logo_headphones.png" alt="Logo" class="logo">
+
+        <input type="checkbox" id="menu-toggle">
+
+        <label for="menu-toggle" class="menu-icon">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </label>
+
+        <ul class="nav-links">
+          <li><a href="#">what we do</a></li>
+          <li><a href="#">our results</a></li>
+          <li><a href="#">contact us</a></li>
+        </ul>
+      </div>
+
+      <div class="hero">
+        <h1 class="hero-title">Lorem ipsum dolor set amet lorem ipsum</h1>
+        <p>Lorem ipsum dolor set amet lorem ipsum dolor set</p>
+
+        <button class="btn">CALL TO ACTION</button>
+
+        <p class="hero-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        </p>
+      </div>
+    </div>
+</header>
+
+    <!-- WHAT WE DO SECTION -->
+    <section class="what-we-do">
+        <div class="container">
+            <h2 class="subtitle">What we do...</h2>
+            <p class="subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+            <div class="services">
+                <div class="service">
+                    <span class="holberton_school-icon-ic_sound"></span>
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+                <div class="service">
+                    <span class="holberton_school-icon-ic_video"></span>
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+                <div class="service">
+                    <span class="holberton_school-icon-ic_music"></span>
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+                <div class="service">
+                    <span class="holberton_school-icon-ic_hearing"></span>
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
             </div>
-			<div class="sub-container">
-				<h2>+2%</h2>
-				<p>Lorem ipsum dolor</p>
-			</div>
-		</div>
-	</section>
-	<section id="contact-us">
-		<h1>
-			Contact us
-		</h1>
-		<form action="#" method="post">
-			<fieldset>
-				<legend class="visually-hidden">Your personal information</legend>
-				<div class="form-group col-1-2">
-					<label for="your-name">Name</label>
-					<div class="form-field">
-						<span class="form-field-container">
-							<input type="text" name="your-name" id="your-name" placeholder="Name" pattern="[A-Za-zÀ-ž\s]{3,}" maxlength="35" autocomplete="on" accesskey="f" required>
-							<i class="form-field-icon"></i>
-						</span>
-						<p class="form-help">Name should be at least 3 characters and only contains letters</p>
-					</div>
-				</div>
-				<div class="form-group col-1-2">
-					<label for="your-last-name">Email</label>
-					<div class="form-field">
-						<span class="form-field-container">
-							<input type="email" name="your-email" id="your-email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" maxlength="55" autocomplete="on" accesskey="e" required>
-							<i class="form-field-icon"></i>
-						</span>
-						<p class="form-help">Email must be a valid email adress</p>
-					</div>
-				</div>
-				<div class="form-group col-2-3">
-					<label for="your-message">Your message</label>
-					<div class="form-field">
-						<span class="form-field-container">
-							<input type="text" name="your-message" id="your-message" placeholder="Your message" minlength="10" accesskey="c" required cols="30" rows="6">
-							<i class="form-field-icon"></i>
-						</span>
-						<p class="form-help">Comment should be at least 10 characters</p>
-					</div>
-				</div>
-				<div class="form-group">
-					<button class="button button-primary">CALL TO ACTION</button>
-				</div>
-			</fieldset>
-		</form>
-	</section>
-</main>
-</body
+        </div>
+    </section>
+
+    <!-- OUR RESULTS -->
+    <section class="our-results">
+        <div class="container">
+            <h2 class="section-title">Our results speak for themselves</h2>
+            <p class="section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+            <div class="services">
+                <div class="service">
+                    <div class="pentagon">
+                        <img src="images/pentagone.png" alt="Pentagon">
+                        <div class="pentagon-content">
+                            <p class="pentagon-value">+2%</p>
+                            <p class="pentagon-label">Lorem ipsum dolor</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service">
+                    <div class="pentagon">
+                        <img src="images/pentagone.png" alt="Pentagon">
+                        <div class="pentagon-content">
+                            <p class="pentagon-value">+2%</p>
+                            <p class="pentagon-label">Lorem ipsum dolor</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service">
+                    <div class="pentagon">
+                        <img src="images/pentagone.png" alt="Pentagon">
+                        <div class="pentagon-content">
+                            <p class="pentagon-value">+2%</p>
+                            <p class="pentagon-label">Lorem ipsum dolor</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service">
+                    <div class="pentagon">
+                        <img src="images/pentagone.png" alt="Pentagon">
+                        <div class="pentagon-content">
+                            <p class="pentagon-value">+2%</p>
+                            <p class="pentagon-label">Lorem ipsum dolor</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact">
+        <div class="container">
+            <h2 class="subtitle">Contact us</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your message</label>
+                    <input type="text" id="message" name="message" required>
+                </div>
+                <button type="submit" class="btn">CALL TO ACTION</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
