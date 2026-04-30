@@ -1,87 +1,82 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-	<title>headphones</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="1-styles.css">
-	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage - Headphones</title>
 
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="1-styles.css">
+    <link rel='stylesheet' href='holberton_school-icon/style.css'>
 </head>
-
 <body>
-	<div class="background-container">
-		<header>
-			<img src="./images/logo_headphones.png" alt="logo headphones">
-			<input type="checkbox" class="menu-btn" id="menu-btn">
-			<label for="menu-btn" class="menu-icon">
-				<span class="navicon"></span>
-			</label>
-			<nav class="navbar-menu">
-				<ul class="nav">
-					<li class="nav-item">
-						<a href="https://www.holbertonschool.com">what we do</a>
-					</li>
-					<li class="nav-item">
-						<a href="https://www.holbertonschool.com">our results</a>
-					</li>
-					<li class="nav-item">
-						<a href="https://www.holbertonschool.com">contact us</a>
-					</li>
-				</ul>
-			</nav>
-		</header>
+    <!-- Header -->
+  <header class="header">
+    <div class="container">
 
-		<main>
-			<section id="hero">
-				<h1>Lorem ipsum dolor set amet lorem ipsum</h1>
-				<h2>Lorem ipsum dolor set amet lorem ipsum dolor set</h2>
-				<button>CALL TO ACTION</button>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-					et dolore
-					magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-					ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-					nulla pariatur.
-				</p>
-			</section>
-	</div>
-	<section id="what-we-do">
-		<div class="what-we-do-top">
-			<h1>What we do...</h1>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-				dolore
-				magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-				commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-				pariatur.
-			</p>
-		</div>
-		<div class="container">
-			<div class="sub-container">
-				<div class="holberton_school-icon-ic_sound"></div>
-				<h2>Lorem ipsum</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-			</div>
-			<div class="sub-container">
-				<div class="holberton_school-icon-ic_video"></div>
-				<h2>Lorem ipsum</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-			</div>
-			<div class="sub-container">
-				<div class="holberton_school-icon-ic_music"></div>
-				<h2>Lorem ipsum</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-			</div>
-			<div class="sub-container">
-				<div class="holberton_school-icon-ic_hearing"></div>
-				<h2>Lorem ipsum</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-			</div>
-		</div>
-	</section>
-	</main>
+      <div class="nav">
+        <img src="images/logo_headphones.png" alt="Logo" class="logo">
+
+        <input type="checkbox" id="menu-toggle">
+
+        <label for="menu-toggle" class="menu-icon">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </label>
+
+        <ul class="nav-links">
+          <li><a href="#">what we do</a></li>
+          <li><a href="#">our results</a></li>
+          <li><a href="#">contact us</a></li>
+        </ul>
+      </div>
+
+      <div class="hero">
+        <h1 class="hero-title">Lorem ipsum dolor set amet lorem ipsum</h1>
+        <p>Lorem ipsum dolor set amet lorem ipsum dolor set</p>
+
+        <button class="btn">CALL TO ACTION</button>
+
+        <p class="hero-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        </p>
+      </div>
+    </div>
+</header>
+    <!-- WHAT WE DO SECTION -->
+    <section class="what-we-do">
+        <div class="container">
+            <h2 class="subtitle">What we do...</h2>
+            <p class="subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+            <div class="services">
+                <div class="service">
+                    <span class="holberton_school-icon-ic_sound"></span>
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+                <div class="service">
+                    <span class="holberton_school-icon-ic_video"></span>
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+                <div class="service">
+                    <span class="holberton_school-icon-ic_music"></span>
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+                <div class="service">
+                    <span class="holberton_school-icon-ic_hearing"></span>
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </body>
+</html>
